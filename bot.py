@@ -17,7 +17,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 # --- Configuration ---
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8413258612:AAHmrd9F_9YT6xBIaqlrn4ZN3-R5HhtcKtk')
 ADMIN_ID = 5610858626
 MAX_FILESIZE = 1950 * 1024 * 1024  # 1.95GB safety limit
 
